@@ -2,9 +2,10 @@
 
 namespace C_
 {
-    class Program
+   public class Program
     {
-        static void Main(string[] args)
+        //static void Main(string[] args)
+        public void prg()
         {
             int totalSecondsPlayed = 100;
             const int SecondsPerMinute = 60;
