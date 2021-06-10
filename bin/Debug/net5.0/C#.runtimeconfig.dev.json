@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\reape\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\reape\\.nuget\\packages"
+    ]
+  }
+}
