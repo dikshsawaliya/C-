@@ -9,7 +9,7 @@ namespace C_
                 Console.Write("Input your choice = ");
                 string choice = Console.ReadLine();
                 Program obj = new Program();
-                Hello obj1 = new Hello();
+                altitude obj1 = new altitude();
 
                 if(choice == "age")
                 {
@@ -19,19 +19,14 @@ namespace C_
                 
                 }
 
-                else if ( choice == "Program")
+                else if ( choice == "Program" || choice == "program")
                 {
                     obj.prg();
                 }
 
-                else if ( choice == "Hello" || choice == "hello")
+                else if ( choice == "Altitude" || choice == "altitude")
                 {
-                    obj1.hello();
-                }
-
-                if(choice == "program")
-                {
-                        obj.prg();
+                    obj1.altitudesub();
                 }
         }
     }
