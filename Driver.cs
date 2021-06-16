@@ -10,6 +10,7 @@ namespace C_
                 string choice = Console.ReadLine();
                 Program obj = new Program();
                 altitude obj1 = new altitude();
+                floatintro obj2 = new floatintro();
 
                 if(choice == "age")
                 {
@@ -27,6 +28,10 @@ namespace C_
                 else if ( choice == "Altitude" || choice == "altitude")
                 {
                     obj1.altitudesub();
+                }
+                else if ( choice == "floatintro" || choice =="Floatintro")
+                {
+                    obj2.floatintoint();
                 }
         }
     }
