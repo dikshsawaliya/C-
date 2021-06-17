@@ -11,6 +11,7 @@ namespace C_
                 Program obj = new Program();
                 altitude obj1 = new altitude();
                 floatintro obj2 = new floatintro();
+                trig obj3 = new trig();
 
                 if(choice == "age")
                 {
@@ -32,6 +33,11 @@ namespace C_
                 else if ( choice == "floatintro" || choice =="Floatintro")
                 {
                     obj2.floatintoint();
+                }
+
+                else if( choice == "Trig" || choice =="trig")
+                {
+                    obj3.Trigonometry()();
                 }
         }
     }
