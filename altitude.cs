@@ -4,7 +4,7 @@ namespace C_
 {
    public class altitude
     {
-        //static void Main(string[] args)
+    
         public void altitudesub()
         {
             Console.Write("Enter altitude 1: ");

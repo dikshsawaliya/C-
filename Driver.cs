@@ -12,6 +12,7 @@ namespace C_
                 altitude obj1 = new altitude();
                 floatintro obj2 = new floatintro();
                 trig obj3 = new trig();
+                temp obj4 = new temp();
 
                 if(choice == "age")
                 {
@@ -37,7 +38,12 @@ namespace C_
 
                 else if( choice == "Trig" || choice =="trig")
                 {
-                    obj3.Trigonometry()();
+                    obj3.Trigo();
+                }
+
+                else if ( choice == "Temp" || choice == "temp")
+                {
+                    obj4.temperature();
                 }
         }
     }
