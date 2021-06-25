@@ -13,6 +13,7 @@ namespace C_
                 floatintro obj2 = new floatintro();
                 trig obj3 = new trig();
                 temp obj4 = new temp();
+                Program1 obj5 = new Program1();
 
                 if(choice == "age")
                 {
@@ -44,6 +45,11 @@ namespace C_
                 else if ( choice == "Temp" || choice == "temp")
                 {
                     obj4.temperature();
+                }
+
+                else if ( choice == "Theorem" || choice == "theorem")
+                {
+                    obj5.theorem();
                 }
         }
     }
